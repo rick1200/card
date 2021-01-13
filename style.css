@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: left -250px top -350px, right -200px top 450px;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.card-container {
+    text-align: center;
+}
+
+.profile-bg-top-img-container {
+    display: flex; /* Eliminates small gap between this div and the .bottom-container div */
+}
+
+#profile-bg-top-img {
+    border-radius: 15px 15px 0 0;
+}
+
+.bottom-container {
+    background: white;
+    border-radius: 0 0 15px 15px;
+}
+
+.social-stat-amount-items {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 35px 0 35px;
+}
+
+.social-stat-headings-items {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px 15px 35px;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; /* Better centering of list items */
+}
+
+#follower-heading-text {
+    margin-left: -13px;
+}
+
+#likes-heading-text {
+    margin-right: 12px;
+}
+
+#photos-heading-text {
+    margin-right: -4px;
+}
+
+.dark-text {
+    color: hsl(229, 23%, 23%);
+}
+
+.light-text {
+    color: hsl(227, 10%, 46%)
+}
+
+.social-stat-headings-text {
+    letter-spacing: 2px;
+}
+
+.social-stat-amount-text {
+    letter-spacing: 1px;
+}
+
+#profile-age {
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+#profile-img {
+    border-radius: 50%;
+    margin-top: -45px;
+    border: 7px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
