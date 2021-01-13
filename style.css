@@ -4,7 +4,7 @@
 :root {
     /* Color var declarations */
     --backgroundColor: hsl(185, 75%, 39%);
-    --colorWhite: #fff;
+    --colorWhite: hsl(360, 100%, 100%);
     --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
     --darkGrayishBlue: hsl(227, 10%, 46%)
 }
@@ -101,7 +101,7 @@ ul {
 #profile-img {
     border-radius: 50%;
     margin-top: -45px;
-    border: 7px solid var(--whiteColor);
+    border: 7px solid var(--colorWhite);
 }
 
 
